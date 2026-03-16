@@ -148,7 +148,7 @@ def main():
             "Temperature",
             min_value=0.0,
             max_value=1.2,
-            value=0.3,
+            value=0.7,
             step=0.1,
             help=(
                 "Controls creativity. Low value gives safer and more focused answers. "
@@ -169,7 +169,7 @@ def main():
                 "Top-p",
                 min_value=0.0,
                 max_value=1.0,
-                value=1.0,
+                value=0.45,
                 step=0.05,
                 help=(
                     "Another way to control randomness. Lower value means safer word choices. "
@@ -181,7 +181,7 @@ def main():
                 "Max output tokens",
                 min_value=64,
                 max_value=4096,
-                value=700,
+                value=4096,
                 step=32,
                 help=(
                     "Maximum length of the AI answer. Higher value allows longer answers, "
