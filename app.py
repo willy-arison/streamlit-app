@@ -180,9 +180,9 @@ def main():
             max_tokens = st.number_input(
                 "Max output tokens",
                 min_value=64,
-                max_value=4096,
-                value=4096,
-                step=32,
+                max_value=10000,
+                value=10000,
+                step=1000,
                 help=(
                     "Maximum length of the AI answer. Higher value allows longer answers, "
                     "but can be slower and use more tokens."
